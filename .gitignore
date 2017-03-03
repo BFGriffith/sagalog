@@ -1,0 +1,40 @@
+# build production
+dist
+.sass-cache
+
+dev/
+doc/client
+client/test/visual/results
+es5/doc/client
+es5/client/test/visual/results
+.tmp
+
+# Apple OS metadata
+.DS_Store
+._.DS_Store
+Thumbs.db
+
+# dependencies directories
+node_modules
+bower_components
+npm-debug.log
+
+# API keys and secrets
+.env
+
+# editors
+.idea
+*.iml
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
